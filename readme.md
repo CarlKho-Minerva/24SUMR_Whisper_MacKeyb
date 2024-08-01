@@ -1,6 +1,26 @@
 # Whisper Transcription App
 
-This project is a transcription application that uses OpenAI's Whisper API to transcribe audio recordings. The application records audio, saves it to a temporary file, transcribes the audio, and copies the transcription to the clipboard.
+This project is a transcription application that uses OpenAI's Whisper API to transcribe audio recordings. The application records audio, saves it to a temporary file, transcribes the audio, and copies the transcription to the clipboard. You can trigger the transcription process by pressing `cmd+r`.
+
+## Project Structure
+
+```plaintext
+.env
+.gitignore
+com.user.whisptertranscription.plist
+venv/
+    bin/
+        activate
+        activate.csh
+        activate.fish
+        Activate.ps1
+        ...
+    include/
+        python3.12/
+    lib/
+        python3.12/
+            site-packages/
+                ...
 
 ## Project Structure
 
