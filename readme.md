@@ -21,26 +21,6 @@ venv/
         python3.12/
             site-packages/
                 ...
-
-## Project Structure
-
-```plaintext
-.env
-.gitignore
-com.user.whisptertranscription.plist
-venv/
-    bin/
-        activate
-        activate.csh
-        activate.fish
-        Activate.ps1
-        ...
-    include/
-        python3.12/
-    lib/
-        python3.12/
-            site-packages/
-                ...
     pyvenv.cfg
 whisper_transcription_app.py
 ```
@@ -56,8 +36,8 @@ whisper_transcription_app.py
 1. **Clone the repository:**
 
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/CarlKho-Minerva/24SUMR_Whisper_MacKeyb
+    cd https://github.com/CarlKho-Minerva/24SUMR_Whisper_MacKeyb
     ```
 
 2. **Create and activate a virtual environment:**
